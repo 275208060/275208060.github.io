@@ -9,23 +9,36 @@
     <style type="text/css">
     html,
     body {
+        font: 18px/1.5 '\5FAE\8F6F\96C5\9ED1', 'Microsoft Yahei', 'Hiragino Sans GB', tahoma, arial, '\5B8B\4F53';
+
         height: 100%;
-        font: 18px/1.5 "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, arial, "\5B8B\4F53";
+        margin: 0;
+
         -webkit-font-smoothing: antialiased;
+    }
+
+    * {
+        box-sizing: border-box;
     }
 
     .main {
         display: flex;
-        height: 100%;
         flex-direction: column;
-        justify-content: center;
+
+        height: 100%;
+
         text-align: center;
+
         color: #666;
+
+        justify-content: center;
     }
 
     h1 {
-        margin: 0;
         font-size: 60px;
+
+        margin: 0;
+
         color: green;
     }
 
@@ -38,19 +51,23 @@
     }
 
     a {
-        text-decoration: none;
-        text-align: center;
-        display: inline-block;
-        width: 127px;
-        height: 36px;
-        border-width: 0;
-        background: #f60;
-        color: #fff;
         font-size: 18px;
         line-height: 2;
-        outline: 0;
+
+        display: inline-block;
+
+        width: 127px;
+        height: 36px;
+
         cursor: pointer;
         -webkit-transition: all .3s;
+        text-align: center;
+        text-decoration: none;
+
+        color: #fff;
+        border-width: 0;
+        outline: 0;
+        background: #f60;
     }
     </style>
 </head>
